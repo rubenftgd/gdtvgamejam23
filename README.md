@@ -20,7 +20,9 @@
 
 **Images**
 ======
+
 **Jumping** 
+
 ![plot](./img/gravity-effect.gif)
 
 ---
