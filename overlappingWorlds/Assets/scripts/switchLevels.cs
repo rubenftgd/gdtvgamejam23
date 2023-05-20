@@ -27,4 +27,11 @@ public class switchLevels : MonoBehaviour
             level2.SetActive(false);
         }
     }
+    private void OnTriggerEnter(Collider other) // to see when the player enters the collider
+    {
+        if(other.gameObject.tag == " ") //on the object you want to pick up set the tag to be anything, in this case "object"
+        {
+            
+        }
+    }
 }
