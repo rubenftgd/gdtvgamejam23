@@ -11,11 +11,7 @@ public class switchLevels : MonoBehaviour
     
 
     public bool canSwitch;
-    // Update is called once per frame
-    void Update()
-    {
-    
-    }
+
 
     public void switchWorlds(InputAction.CallbackContext context)
     {
