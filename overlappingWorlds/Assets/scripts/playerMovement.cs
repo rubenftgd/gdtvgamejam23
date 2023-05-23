@@ -5,14 +5,20 @@ using UnityEngine.InputSystem;
 
 public class playerMovement : MonoBehaviour
 {
+    //A.J.'S CODE
     public Transform keyTransform;
     public Transform doorTransform;
+
+    //END OF A.J.'S CODE
     public Rigidbody2D rb;
     public Transform GroundCheck;
     public LayerMask GroundLayer;
 
+    //A.J.'S CODE
     private bool hasKey = false;
     private bool canOpenDoor = false;
+
+    //END OF A.J.'S CODE
 
     [Header("Movement Values")]
     [SerializeField]
@@ -35,6 +41,8 @@ public class playerMovement : MonoBehaviour
     public bool isFacingRight;
 
     // Update is called once per frame
+
+    //A.J.'S CODE
     void Update()
     {
         if (!hasKey && Vector2.Distance(transform.position, keyTransform.position) < 1f)
@@ -47,6 +55,7 @@ public class playerMovement : MonoBehaviour
         }
     }
 
+    //END OF A.J.'S CODE
     void FixedUpdate()
     {
         movement();
@@ -136,6 +145,7 @@ public class playerMovement : MonoBehaviour
         rb.drag = aireLinearDrag;
     }
 
+    //START OF A.J.'S CODE
     public void PickupKey()
     {
         hasKey = true;
@@ -151,7 +161,6 @@ public class playerMovement : MonoBehaviour
     {
         if (hasKey)
         {
-            Debug.Log("HIt");
             // Replace this line with your own code to open the door, e.g., play an animation
             Destroy(doorTransform.gameObject); // Destroy the door object when opened
         }
@@ -175,3 +184,4 @@ public class playerMovement : MonoBehaviour
         }
     }
 }
+//END OF A.J.'S CODE
