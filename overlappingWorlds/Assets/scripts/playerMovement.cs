@@ -45,14 +45,14 @@ public class playerMovement : MonoBehaviour
     //A.J.'S CODE
     void Update()
     {
-        if (!hasKey && Vector2.Distance(transform.position, keyTransform.position) < 1f)
+        /*if (!hasKey && Vector2.Distance(transform.position, keyTransform.position) < 1f)
         {
             PickupKey();
         }
         if (canOpenDoor && Keyboard.current.eKey.wasPressedThisFrame)
         {
             OpenDoor();
-        }
+        }*/
     }
 
     //END OF A.J.'S CODE

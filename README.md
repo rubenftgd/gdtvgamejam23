@@ -25,4 +25,9 @@
 
 ![plot](./img/gravity-effect.gif)
 
+**AI following** 
+
+![plot](./img/ai-following.gif)
+
+
 ---
