@@ -6,6 +6,7 @@ TagManager:
   tags:
   - SwitchSpot
   - Door
+  - isPickable
   layers:
   - Default
   - TransparentFX

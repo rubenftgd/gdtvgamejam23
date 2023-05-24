@@ -13,6 +13,7 @@ public class playerMovement : MonoBehaviour
     public Rigidbody2D rb;
     public Transform GroundCheck;
     public LayerMask GroundLayer;
+    public Transform playerTransform;
 
     //A.J.'S CODE
     private bool hasKey = false;
@@ -79,9 +80,9 @@ public class playerMovement : MonoBehaviour
     private void Flip()
     {
         isFacingRight = !isFacingRight;
-        Vector3 scale = transform.localScale;
+        Vector3 scale = playerTransform.localScale;
         scale.x *= -1;
-        transform.localScale = scale;
+        playerTransform.localScale = scale;
     }
 
     public void Input(InputAction.CallbackContext context)
