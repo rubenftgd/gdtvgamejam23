@@ -28,7 +28,13 @@ public class PickUp : MonoBehaviour
                     if(gameObject.GetComponent<weapon>())
                     {
                         gameObject.GetComponent<weapon>().enabled = true;
+                        
                     }
+                    else if (gameObject.GetComponent<FreezingPistol>())
+                    {
+                        gameObject.GetComponent<FreezingPistol>().enabled = true;
+                    }
+                    gameObject.SetActive(false);
 
                     break;
                 }

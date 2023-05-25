@@ -58,6 +58,24 @@
                     "processors": "",
                     "interactions": "",
                     "initialStateCheck": false
+                },
+                {
+                    "name": "selectWeapon1",
+                    "type": "Button",
+                    "id": "e381f9e7-4169-466b-8717-13ae84796194",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "selectWeapon2",
+                    "type": "Button",
+                    "id": "9bc0ccc1-24f9-49e2-b678-e3d5a628aa34",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
                 }
             ],
             "bindings": [
@@ -344,6 +362,28 @@
                     "processors": "",
                     "groups": "Gamepad",
                     "action": "pauseGame",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "bdb83af2-81ef-46fc-9956-74cc293954d5",
+                    "path": "<Keyboard>/1",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "selectWeapon1",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "32037d7d-e919-41cf-b53a-3f0d8dad2be7",
+                    "path": "<Keyboard>/2",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "Keyboard&Mouse",
+                    "action": "selectWeapon2",
                     "isComposite": false,
                     "isPartOfComposite": false
                 }

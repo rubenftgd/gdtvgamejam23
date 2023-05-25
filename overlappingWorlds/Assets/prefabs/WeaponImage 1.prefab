@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 7422474174459728452}
   - component: {fileID: -3595600602239673260}
   m_Layer: 5
-  m_Name: WeaponImage
+  m_Name: WeaponImage 1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -28,8 +28,8 @@ RectTransform:
   m_GameObject: {fileID: 4505560329235825810}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
+  m_LocalScale: {x: 1.85, y: 1.85, z: 1.85}
+  m_ConstrainProportionsScale: 1
   m_Children:
   - {fileID: 8023017202428599342}
   m_Father: {fileID: 0}
@@ -37,7 +37,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -1.01, y: 15}
+  m_AnchoredPosition: {x: -1.01, y: 27.21}
   m_SizeDelta: {x: 26.6088, y: 6.1}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &5046600709005168511
@@ -61,7 +61,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0, g: 0.20784315, b: 0.6313726, a: 1}
+  m_Color: {r: 0.9607844, g: 0.8078432, b: 0.19607845, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1

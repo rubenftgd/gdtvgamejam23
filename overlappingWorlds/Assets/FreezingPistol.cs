@@ -3,12 +3,12 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.InputSystem;
 
-public class weapon : MonoBehaviour
+public class FreezingPistol : MonoBehaviour
 {
-    public float Offset;
+      public float Offset;
     public GameObject bullet;
     public Transform shootPosition;
-    public weapon weaponScript;
+    public FreezingPistol weaponScript;
     float TimebtwShots;
     public float startTimeBtwShots;
 
@@ -33,6 +33,4 @@ public class weapon : MonoBehaviour
         }
         
     }
-
-   
 }
