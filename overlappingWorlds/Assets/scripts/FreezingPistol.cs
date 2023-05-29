@@ -5,7 +5,7 @@ using UnityEngine.InputSystem;
 
 public class FreezingPistol : MonoBehaviour
 {
-      public float Offset;
+    public float Offset;
     public GameObject bullet;
     public Transform shootPosition;
     public FreezingPistol weaponScript;
