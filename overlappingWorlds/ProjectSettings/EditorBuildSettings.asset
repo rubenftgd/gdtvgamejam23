@@ -6,9 +6,18 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
+    path: Assets/Scenes/finalBuild/gameName.unity
+    guid: c838a2b2dffce554988907e2c1693b7f
+  - enabled: 1
     path: Assets/Scenes/finalBuild/mainMenu.unity
     guid: 97518f301ec211145aae21a04091426c
   - enabled: 1
     path: Assets/Scenes/finalBuild/Level1.unity
     guid: 9823baef34f4d86428dae800f5ce0c16
+  - enabled: 0
+    path: Assets/Scenes/finalBuild/ruben-test.unity
+    guid: a80dff05595144f4bb39dbc286f1c55b
+  - enabled: 0
+    path: Assets/Scenes/Jonathan's Scene/Jon's Scene.unity
+    guid: 9822f6463cf393945b0d61f4df4d0520
   m_configObjects: {}
