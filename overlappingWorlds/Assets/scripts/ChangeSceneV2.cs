@@ -5,8 +5,7 @@ using UnityEngine.SceneManagement;
 
 public class ChangeSceneV2 : MonoBehaviour
 {
-    public float delay = 5.0f;
-    private bool canSkip = false;
+    public float delay = 3.0f;
 
     private void Start()
     {
@@ -16,21 +15,8 @@ public class ChangeSceneV2 : MonoBehaviour
     private IEnumerator DelayedSceneLoad()
     {
         yield return new WaitForSeconds(delay);
-        if (canSkip)
-        {
-            yield break;
-        }
         
         LoadNextScene();
-    }
-
-    private void Update()
-    {
-        if (Input.anyKeyDown)
-        {
-            canSkip = true;
-            LoadNextScene();
-        }
     }
 
     private void LoadNextScene()

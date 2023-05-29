@@ -22,6 +22,7 @@ public class GameEndScr : MonoBehaviour
     {
         if(other.gameObject.tag == "Door") //on the object you want to pick up set the tag to be anything, in this case "object"
         {
+          Debug.Log("You Win");
           SceneManager.LoadScene("theend");
         }
     }
