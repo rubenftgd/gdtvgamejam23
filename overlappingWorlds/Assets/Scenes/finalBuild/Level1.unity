@@ -9986,6 +9986,11 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!1 &493910943 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 369359191424313290, guid: 8174a7ddf2ebd0042abeb4143de0840c, type: 3}
+  m_PrefabInstance: {fileID: 862479124270312609}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &494306564
 GameObject:
   m_ObjectHideFlags: 0
@@ -19429,6 +19434,11 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!1 &986745825 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2111334994743785997, guid: 4495845e75785fe448cfe1dfc3135ab0, type: 3}
+  m_PrefabInstance: {fileID: 1386087023}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &987878270
 GameObject:
   m_ObjectHideFlags: 0
@@ -26212,6 +26222,10 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 2111334994743785997, guid: 4495845e75785fe448cfe1dfc3135ab0, type: 3}
+      propertyPath: m_TagString
+      value: Door
+      objectReference: {fileID: 0}
     - target: {fileID: 3687273980469042556, guid: 4495845e75785fe448cfe1dfc3135ab0, type: 3}
       propertyPath: m_IsActive
       value: 0
@@ -26247,13 +26261,37 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 735204102017832945, guid: 4495845e75785fe448cfe1dfc3135ab0, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1405854165}
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 2111334994743785997, guid: 4495845e75785fe448cfe1dfc3135ab0, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1386087026}
   m_SourcePrefab: {fileID: 100100000, guid: 4495845e75785fe448cfe1dfc3135ab0, type: 3}
 --- !u!4 &1386087024 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 735204102017832945, guid: 4495845e75785fe448cfe1dfc3135ab0, type: 3}
   m_PrefabInstance: {fileID: 1386087023}
   m_PrefabAsset: {fileID: 0}
+--- !u!65 &1386087026
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 986745825}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.99999994, y: 1, z: 0.2}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &1393409293
 GameObject:
   m_ObjectHideFlags: 0
@@ -40058,7 +40096,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8755938489916198955, guid: e9ed8c076e015064bbf310a288d0448f, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8829672226690693981, guid: e9ed8c076e015064bbf310a288d0448f, type: 3}
       propertyPath: m_Color.b
@@ -43088,13 +43126,28 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 271987828422111699, guid: 8174a7ddf2ebd0042abeb4143de0840c, type: 3}
       insertIndex: -1
       addedObject: {fileID: 33188094}
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 369359191424313290, guid: 8174a7ddf2ebd0042abeb4143de0840c, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1557447550841303018}
   m_SourcePrefab: {fileID: 100100000, guid: 8174a7ddf2ebd0042abeb4143de0840c, type: 3}
 --- !u!4 &1557447550841303011 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4602664385817991077, guid: 8174a7ddf2ebd0042abeb4143de0840c, type: 3}
   m_PrefabInstance: {fileID: 862479124270312609}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1557447550841303018
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 493910943}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e3e6f4819d6ceb7469c4460c8e3d05f1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &4388987647838862081
 PrefabInstance:
   m_ObjectHideFlags: 0
