@@ -1,8 +1,8 @@
 using UnityEngine;
-
+using UnityEngine.SceneManagement;
 public class PlayerController : MonoBehaviour
 {
-	public int maxLives = 2;
+	public int maxLives = 1;
 	private int currentLives;
 
 	private void Start()
@@ -18,6 +18,7 @@ public class PlayerController : MonoBehaviour
 		{
 			// Player is out of lives, handle game over here
 			Debug.Log("Game Over");
+			SceneManager.LoadScene("Level1");
 		}
 		else
 		{
