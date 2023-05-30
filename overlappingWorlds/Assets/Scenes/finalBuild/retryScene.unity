@@ -333,7 +333,12 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8627713068770121881, guid: 18fac58e28c3cd34f9c029e39f970b6c, type: 3}
       propertyPath: m_text
-      value: YOU DIED
+      value: 'YOU DIED
+
+
+        CARE TO TRY
+
+        AGAIN?'
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 7806807231790881689, guid: 18fac58e28c3cd34f9c029e39f970b6c, type: 3}
@@ -442,7 +447,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1922465504}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c5cbd8c52d3b32c4783d1583ab9d8de8, type: 3}
+  m_Script: {fileID: 11500000, guid: fb700d5a2add9f946a1613b87518c2cb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  delay: 5
+  delay: 1

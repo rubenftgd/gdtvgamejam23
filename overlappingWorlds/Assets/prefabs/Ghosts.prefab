@@ -5176,7 +5176,6 @@ GameObject:
   - component: {fileID: 9008574487429581961}
   - component: {fileID: 2431073030162214901}
   - component: {fileID: 6987656065984419846}
-  - component: {fileID: 3785977698207643644}
   m_Layer: 0
   m_Name: GhostEnemy
   m_TagString: Untagged
@@ -5305,18 +5304,6 @@ CapsuleCollider2D:
   m_Offset: {x: 0.08995594, y: 0.02248954}
   m_Size: {x: 1.3703152, y: 1.3703121}
   m_Direction: 1
---- !u!114 &3785977698207643644
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6912267553723707078}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f0cd331326aedbb45b1af68fe5af6670, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &6986865752956241645
 GameObject:
   m_ObjectHideFlags: 0
@@ -5437,7 +5424,7 @@ Transform:
   - {fileID: 5790840368752741692}
   - {fileID: 7310518964957530480}
   m_Father: {fileID: 0}
-  m_RootOrder: -1
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &7196877287806084628
 GameObject:
