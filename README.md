@@ -4,9 +4,13 @@
 **Theme - > THEME: Life in 2 dimensions!**
 
 # USEFUL LINKS
-**Game Jam** - https://itch.io/jam/gamedevtv-jam-2023
+[**Game Jam URL**](https://itch.io/jam/gamedevtv-jam-2023)
 
-**Twitch** - https://www.twitch.tv/gamedevtv
+[**Twitch**](https://www.twitch.tv/gamedevtv)
+
+[**Our Game on Itch.io**](https://elfpenguin.itch.io/dimensional-dreamcatcher)
+
+[**Game on GitHub Pages**](https://rubenftgd.github.io/gdtvgamejam23/)
 
 # CONTROLS
 **Space** - Jump
