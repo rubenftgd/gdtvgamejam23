@@ -19,7 +19,7 @@ public class PlayerController : MonoBehaviour
 			// Player is out of lives, handle game over here
 			Debug.Log("Game Over");
 			maxLives = 1;
-			SceneManager.LoadScene("Level1");
+			SceneManager.LoadScene("theend");
 		}
 		else
 		{

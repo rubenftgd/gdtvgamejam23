@@ -42,12 +42,10 @@ public class pauseMenu : MonoBehaviour
         gameIsPaused = false;
         Application.Quit();
     }
-    public void mainMenu()
+
+    public void StartGame()
     {
-        Time.timeScale = 1f;
-        gameIsPaused = false;
-        SceneManager.LoadScene("MainMenu");
-        
+            SceneManager.LoadScene("Level1");
     }
     
 }

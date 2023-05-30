@@ -333,12 +333,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8627713068770121881, guid: 18fac58e28c3cd34f9c029e39f970b6c, type: 3}
       propertyPath: m_text
-      value: 'CONGRATULATIONS
-
-
-        YOU FINISHED THE
-
-        GAME'
+      value: YOU DIED
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 7806807231790881689, guid: 18fac58e28c3cd34f9c029e39f970b6c, type: 3}

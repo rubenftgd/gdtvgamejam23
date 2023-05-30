@@ -8,9 +8,4 @@ public class PauseMenu : MonoBehaviour
         Time.timeScale = 1f; // Resume normal time scale
         SceneManager.UnloadSceneAsync("pauseMenu"); // Unload the pause menu scene
     }
-
-    public void QuitGame()
-    {
-        Application.Quit();
-    }
 }

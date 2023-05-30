@@ -20,4 +20,10 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/finalBuild/theend.unity
     guid: d267ace455ced4048b3edf1ae0c1cfb8
+  - enabled: 1
+    path: Assets/Scenes/finalBuild/storyScene.unity
+    guid: c5ed76fcfd71a554dbd3ad0c5e439426
+  - enabled: 1
+    path: Assets/Scenes/finalBuild/retryScene.unity
+    guid: 7b61b966ad7ac8c4c9d10345bd5fb422
   m_configObjects: {}
