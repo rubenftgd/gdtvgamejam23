@@ -1,5 +1,9 @@
 # gdtvgamejam23
 
+# GamedevTV GameJam for 19-29 May of 2023! 
+**Theme - > THEME: Life in 2 dimensions!**
+https://itch.io/jam/gamedevtv-jam-2023
+
 # USEFUL LINKS
 **Github** - https://github.com/rubenftgd/gdtvgamejam23
 
