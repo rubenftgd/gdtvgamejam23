@@ -328,7 +328,7 @@
 
 **Platform and Bush 1**  
 
-![plot](./img/art/forest-assets/platfom-and-bush1.png)
+![plot](./img/art/forest-assets/platform-and-bush1.png)
 
 **Platform and Bush 2** 
 
