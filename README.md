@@ -41,13 +41,25 @@
 **Early Stages of Development**
 ======
 
+**AI following** 
+
+![plot](./img/ai-following.gif)
+
+**Moonwalking Ghosts** 
+
+![plot](./img/moonwalking-ghosts.gif)
+
 **Title** 
 
 ![plot](./img/Title.png)
 
-**AI following** 
+**Title White** 
 
-![plot](./img/ai-following.gif)
+![plot](./img/Title-White.png)
+
+**Title0 Grey** 
+
+![plot](./img/Title-grey.png)
 
 
 ---
